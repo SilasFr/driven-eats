@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <title>DrivenEats</title>
+</head>
+<body>
+
+    <nav class="topo">
+        <h1>DrivenEats</h1>
+        <p>Sua comida em 6 minutos</p>
+    </nav>
+    <main>
+        <!-- scroll numero 1 -->
+        <section> 
+            <h2>Primeiro, seu prato</h2>
+            <section class="carrossel-prato scroll">
+                <div class="prato checkbox" onclick="selecionadoPrato(this)">
+                    <img src="img/frango-yin-yang.png" alt="">
+                    <h3>Frango Yin Yang</h3>
+                    <p>Um pouco de batata, um pouco de salada</p>
+                    <span>R$ 14,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+                </div>
+
+                <div class="prato checkbox" onclick="selecionadoPrato(this)">
+                    <img src="img/frango-yin-yang.png" alt="">
+                    <h3>Stroganoff</h3>
+                    <p>Um pouco de batata, um pouco de salada</p>
+                    <span>R$ 24,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+                </div>
+
+                <div class="prato checkbox" onclick="selecionadoPrato(this)">
+                    <img src="img/frango-yin-yang.png" alt="">
+                    <h3>Filé ao molho madeira</h3>
+                    <p>Um pouco de batata, um pouco de salada</p>
+                    <span>R$ 29,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+
+                <div class="prato checkbox" onclick="selecionadoPrato(this)">
+                    <img src="img/frango-yin-yang.png" alt="">
+                    <h3>Pizza</h3>
+                    <p>Um pouco de batata, um pouco de salada</p>
+                    <span>R$ 34,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+
+                <div class="prato checkbox" onclick="selecionadoPrato(this)">
+                    <img src="img/frango-yin-yang.png" alt="">
+                    <h3>Batatinha</h3>
+                    <p>Um pouco de batata, um pouco de salada</p>
+                    <span>R$ 19,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+            </section>
+        </section>
+        <!-- scroll numero 2 -->
+        <section>
+            <h2>Agora, sua bebida</h2>
+            <section class="carrossel-bebida scroll">
+                <div class="bebida checkbox" onclick="selecionadoBebida(this)">
+                    <img src="img/coquinha-gelada.png" alt="">
+                    <h3>Coca-Cola</h3>
+                    <p>Lata 350mL</p>
+                    <span>R$ 4,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+                <div class="bebida checkbox" onclick="selecionadoBebida(this)">
+                    <img src="img/coquinha-gelada.png" alt="">
+                    <h3>Pepsi</h3>
+                    <p>Lata 350mL</p>
+                    <span>R$ 5,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+                <div class="bebida checkbox" onclick="selecionadoBebida(this)">
+                    <img src="img/coquinha-gelada.png" alt="">
+                    <h3>Chá gelado</h3>
+                    <p>Lata 350mL</p>
+                    <span>R$ 3,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+                <div class="bebida checkbox" onclick="selecionadoBebida(this)">
+                    <img src="img/coquinha-gelada.png" alt="">
+                    <h3>Suco de laranja</h3>
+                    <p>Lata 350mL</p>
+                    <span>R$ 9,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+            </section>
+        </section>
+        <!-- scroll numero 3 -->
+        <section>
+            <h2>Por fim, sua sobremesa</h2>
+            <section class="carrossel-sobremesa scroll">
+                <div class="sobremesa checkbox" onclick="selecionadoSobremesa(this)">
+                    <img src="img/pudim.png" alt="">
+                    <h3>Pudim</h3>
+                    <p>Apenas pudim</p>
+                    <span>R$ 7,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+
+                <div class="sobremesa checkbox" onclick="selecionadoSobremesa(this)">
+                    <img src="img/pudim.png" alt="">
+                    <h3>Cookie</h3>
+                    <p>Apenas pudim</p>
+                    <span>R$ 5,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+
+                <div class="sobremesa checkbox" onclick="selecionadoSobremesa(this)">
+                    <img src="img/pudim.png" alt="">
+                    <h3>Gelatto</h3>
+                    <p>Apenas pudim</p>
+                    <span>R$ 10,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+
+                <div class="sobremesa checkbox" onclick="selecionadoSobremesa(this)">
+                    <img src="img/pudim.png" alt="">
+                    <h3>Petit gateu</h3>
+                    <p>Apenas pudim</p>
+                    <span>R$ 15,90</span>
+                    <ion-icon name="checkmark-circle" class=" check"></ion-icon>
+
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+    <section class="fechamento">
+        <div class="botao botao-inativo" onclick="confirmarPedido()" >
+            <p>Selecione os 3 itens
+                para fechar o pedido</p>
+        </div>
+    </section>
+    <!-- ---------- TELA DE CONFIRMAÇÃO DE PEDIDO -------- -->
+    <div class="transparencia off">
+        <section class="confirmar-pedido">
+            <h3>Confirme seu pedido</h3>
+            <div>
+                <span class="notaFiscalPratoNome"></span>
+                <span class="notaFiscalPratoValor"></span>
+            </div>
+            <div>
+                <span class="notaFiscalBebidaNome"></span>
+                <span class="notaFiscalBebidaValor"></span>
+
+            </div>
+            <div >
+                <span class="notaFiscalSobremesaNome"></span>
+                <span class="notaFiscalSobremesaValor"></span>
+
+            </div>
+            <div class="total">
+                <span >TOTAL</span>
+                <span class="valorTotal"></span>
+            </div>
+
+            <div>
+                <button class="finalizarPedido" onclick="finalizarPedido()">
+                    Tudo certo, pode pedir!
+                </button>
+            </div>
+            <p onclick="cancelarPedido()">Cancelar</p>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

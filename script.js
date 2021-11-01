@@ -13,15 +13,12 @@ let valorTotal
 
 function selecionadoPrato(prato){
     const selecao1 = document.querySelector('.carrossel-prato .selecionado')
-    const check = document.querySelector('.carrossel-prato .checkbox ion-icon')
 
     if(selecao1!== null){
-        selecao1.classList.toggle('selecionado') 
-        check.classList.toggle('off')        
+        selecao1.classList.toggle('selecionado')      
     }
     
     prato.classList.toggle('selecionado')
-    check.classList.toggle('off')    
     botaoPedidoFinalizado()
 
     const nomePrato = document.querySelector('.carrossel-prato .selecionado h3')
